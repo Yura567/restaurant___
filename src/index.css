@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+      background-image: url(/src/img/handrawn-barbecue-elements.jpg);
+      background-size: contain;
+     
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: -1; 
+  }
+header{
+    width: 100%;
+    float: left;
+    height: 50px;
+    background-color: aliceblue; 
+    text-decoration: none;
+  
+}
+.content_header{
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.menu{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.s{
+    margin-left: 10px;
+    color: black;
+}
+a{
+    text-decoration: none;
+    
+}
+.offers{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.buutton{
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    border-radius: 7px;
+    background-color: grey;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.bag{
+    width: 25px;
+    height: 25px;
+    background-color: brown;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.login{
+ 
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.button_log{
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    border-radius: 7px;
+    background-color: orange;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: black;
+    margin-left: 7px;
+    margin-top: 4px;
+}
+main{
+    width: 100%;
+    float: left; 
+}
+.main_title{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 100px;
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+}
+.main_baner{
+    width: 60%;
+    height: 400px;
+    margin: auto;
+    border-radius: 15px;
+    background-image: url(/src/img/dw21batch4-sasi-42.png);
+    background-size: cover;
+}
+.big_conteiner{
+    width: 90%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.categories_title{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 100px;
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+}
+.categor_conteiner{
+    width: 200px;
+    height: 150px;
+    background-color: blueviolet;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.cat_text{
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.menulist1{
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.menu_cont{
+    width: 320px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: white;
+}
+.menu_photo{
+    width: 95%;
+    height: 50%;
+    margin-top: 5px;
+    margin-left: 8px;
+    border-radius: 15px;
+}
+.text_menu_list{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+.price{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+}
+.button_menu{
+    width: 180px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 130px;
+}
+
+.menulist2{
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+.footer{
+    width: 100%;
+    float: left; 
+    height: 150px;
+    background-color: grey;
+    margin-top: 50px;
+}
